@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    width: 100%;
+    height: 11vh;
+    border-bottom: 1px solid #000;
+    display: flex;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.logo h1{
+    font-size: 5vmin;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 60%;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+
+.nav-links li{
+    font-size: 2.5vmin;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 10px 15px;
+    color: #fff;
+    background: #0101f8;
+    border-radius: 5px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+
+/* Beginning of Header */
+
+header{
+    width: 100%;
+    height: 70vh;
+    margin-top: 80px;
+    display: flex;
+}
+
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+    
+}
+
+.content{
+    margin-left: 30px;
+}
+
+.content h1{
+     font-size: 8vmin;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     line-height: 10vmin;
+     color: #4141fb;
+     margin-bottom: 40px;
+
+}
+
+.content p{
+    font-size: 4vmin;
+    color: #232222;
+    margin-bottom: 40px;
+}
+.content .btn{
+     display: unset;
+     margin-right: 30px;
+}
+
+.content img{
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.line{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #0101f8;
+    margin-top: -70px;
+}
+
+
+.view{
+    display: block;
+    margin-right: 20px;
+}
+
+.view img{
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    max-width: 200;
+}
+
+
+
+/* Section of Container */
+
+.container{
+    width: 145vmin;
+    height: 8vh;
+    background: #f6f6f6;
+    position: absolute;
+    left: 10%;
+    transform: translateY(-50%,-50%);
+    border-radius: 5px;
+    margin-top: 100px;
+    
+    
+}
+
+.semi-hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+
+}
+
+.semi-hero h4{
+    color: #0101f8;
+    font-size: 1.9vmin;
+    
+   
+}
+
+.semi-hero h4::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(./image/Down.png);
+    background-size: contain;
+    cursor: pointer;
+    
+}
+
+
+
+.Area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.Area p{
+    
+   margin-left: -10px;
+   margin-top: 4px;
+    
+}
+
+/* the P tag are represent with Locate & house elements */ 
+
+.locate{
+    margin-right: 20px;
+}
+
+.house{
+    margin-right: 43px;
+}
+
+.semi-hero .btn{
+    display: flex;
+    margin-top: 0.9px;
+}
+
+.btn img{
+    padding-right: 5px;
+}
+
+/* The Beginning of Section of how it works */
+
+.works{
+    width: 100%;
+    height: 80vmin;
+    margin-top: 150px;
+    padding: 40px 40px;
+}
+
+.cont{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.cont h3{
+    font-size: 4vmin;
+    color: #4141fb;
+}
+
+.cont p{
+    font-size: 2.5vmin;
+    color: #484848;
+}
+
+.works-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.home{
+    width: 400px;
+    height: 450px;
+    background: #f6f6f6;
+    position: relative;
+    display: block;
+    top: 40%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 40px;
+    
+}
+
+.home img{
+    margin: 50px auto;
+}
+
+.home h2{
+    font-size: 4.3vmin;
+    margin-top: -20px;
+    line-height: 50px;
+}
+
+.home p{
+    font-size: 3vmin;
+    text-align: center;
+    margin-top: 28px;
+    line-height: 40px;
+}
+
+.payment{
+    width: 400px;
+    height: 450px;
+    background: #f6f6f6;
+    position: relative;
+    display: block;
+    top: 40%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+
+
+.keys{
+    width: 400px;
+    height: 450px;
+    background: #f6f6f6;
+    position: relative;
+    top: 40%;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 40px;
+    
+
+}
+
+.keys img, .payment img{
+    margin: 90px auto;
+}
+
+
+.one{
+    position: absolute;;
+    top: -28px;
+    left: 135px;
+}
+
+.two{
+    position: absolute;
+    top: -28px;
+    right: 135px;
+
+}
+
+.keys h2, .payment h2 {
+    font-size: 4vmin;
+    margin-top: -60px;
+    line-height: 50px;
+
+}
+
+.keys p, .payment p{
+    font-size: 3vmin;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+/* The beginning section of feature area */
+
+.feature{
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.insider{
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 50px;
+}
+
+.image-source{
+    display: block;
+}
+
+.image-source img{
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+
+.content-source{
+    margin: 50px 40px;  
+}
+
+.content-source h1{
+    font-size: 5vmin;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     line-height: 10vmin;
+     color: #4141fb;
+     margin-bottom: 10px;
+}
+
+.content-source p{
+    text-align: justify;
+    font-size: 3vmin;
+    margin-bottom: 30px;
+}
+
+
+.items{
+    column-count: 2;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.items li{
+    font-size: 2.5vmin;
+    font-weight: bold; 
+    position: relative;
+
+}
+
+.items li::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    background-image: url(./image/Mark.png);
+    background-size: contain;
+
+}
+
+
+/* Beginning of Testmonial Section */
+
+.testimonial{
+    width: 100%;
+    height: 70vh;
+    padding: 30px 30px;
+   
+
+}
+
+.more {
+    text-align: center;
+    line-height: 2;
+}
+
+.more h1{
+    font-size: 5vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4141fb;
+}
+
+.more p{
+    font-size: 2.5vmin;
+    color: #484848;
+}
+
+.more .btn{
+    display: unset;
+    float: right;
+    margin-right: 70px;
+}
+
+.test-content{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.first-test{
+    width: 500px;
+    height: 300px;
+    background: #f6f6f6;
+    position: absolute;
+    left: 3%;
+    margin-left: 40px;
+    transform: translateY(50%,-50%);
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.sec-test{
+    width: 500px;
+    height: 340px;
+    background: #f6f6f6;
+    position: absolute;
+    right: 5%;
+    transform: translateY(50%,-50%);
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.first-test p, .sec-test p{
+    font-size: 2.3vmin;
+    line-height: 1.2;
+    margin: 10px auto;
+   color: #484848;
+}
+
+cite, .first-test h5, .sec-test h5 {
+    font-size: 2.2vmin;
+}
+
+/* The beginning of Footer section */
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background: #0101f8;
+    padding: 30px 30px;
+    margin-top: 50px;
+    
+}
+
+.footer-all{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left : 90px;
+    padding-right: 90px;
+    line-height: 2.5;
+}
+
+.footer-content {
+       padding: 15px; 
+}
+
+.footer-content ul a{
+    color: #c2bfbf;
+    font-size: 2.2vmin;
+}
+
+.footer-content .sub-head a{
+    font-size: 3vmin;
+    color: #f6f6f6;
+}
+
+.long-line{
+    width: 155vmin;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: 6%;
+    margin-top: 40px;
+    
+    
+}
+
+.content-copy{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    margin-top: 0;   
+}
+
+.copy{
+    color: #fff;
+    font-size: 2vmin;
+    margin-left: 50px;
+}
+
+.media{
+    padding-right: 30px;
+    margin-right: 40px;
+}
+
+.media img{
+    margin-left: 20px;
+}
+
+
+
+/* Mobile Device */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
